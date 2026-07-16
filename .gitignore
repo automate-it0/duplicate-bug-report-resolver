@@ -1,8 +1,21 @@
+# Python
 *.pyc
 *.pyo
 *.pyd
 __pycache__/
-*.gitignore
-*.idea/
-*.vscode/
+
+# Environment / Secrets — never commit API keys!
+.env
+.env.*
+*.key
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
 *.log
+
+# OS
+.DS_Store
+Thumbs.db
