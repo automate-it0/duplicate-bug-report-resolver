@@ -1,20 +1,31 @@
-# Python
-*.pyc
-*.pyo
-*.pyd
+# Byte-compiled / cache
 __pycache__/
+*.py[cod]
+*$py.class
 
-# Environment / Secrets — never commit API keys!
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment / secrets — never commit API keys!
 .env
 .env.*
 *.key
 
+# Logs
+*.log
+
 # IDE
 .idea/
 .vscode/
-
-# Logs
-*.log
+*.swp
 
 # OS
 .DS_Store
